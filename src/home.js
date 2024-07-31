@@ -26,7 +26,7 @@ export default function loadHomePage() {
     let location = document.createElement('section');
     location.innerHTML = `
     <h2>Location</h2>
-    <h4>Planet Pizza, Universe 7</h4>
+    <h4>23 Mushroom Kingdom Lane, Princess Peach's Castle, Toad Town</h4>
     `;
 
     content.appendChild(info);
