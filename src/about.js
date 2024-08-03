@@ -9,6 +9,7 @@ export default function loadAboutPage() {
     content.appendChild(subtitle1);
 
     let about = document.createElement('section');
+    about.setAttribute("id", "sectionAbout");
     about.innerHTML = `
         <p>Welcome to Don Mario's, where we bring the magic of the Mushroom Kingdom to your plate! Established in 2024, our mission is to deliver the most delightful pizzas with ingredients that would make even Bowser envious.</p>
         <p>Our team of skilled chefs, led by the legendary Chef Mario, combines traditional Italian recipes with the whimsical flavors of the Mushroom Kingdom to craft pizzas that are truly super. From our signature Mushroom Kingdom Margherita to the famous Koopa Pepperoni, each slice is an adventure in taste.</p>
@@ -23,6 +24,7 @@ export default function loadAboutPage() {
     content.appendChild(subtitle2);
 
     let contact = document.createElement('section');
+    contact.setAttribute("id", "sectionContact");
     contact.innerHTML = `
         <p>Have questions or want to place an order? Reach out to us:</p>
         <ul>
