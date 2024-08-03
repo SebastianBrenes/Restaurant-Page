@@ -87,6 +87,71 @@ section {
     /* color: #F8EDED; */
 }
 
+/* -------------- Section Home -------------- */
+
+#sectionInfo {
+    font-size: 1.2rem;
+}
+
+#sectionSchedule {
+    font-size: 1.2rem;
+}
+
+#sectionSchedule h3{
+    font-size: 1.4rem;
+}
+
+#sectionLocation {
+    font-size: 1.2rem;
+}
+
+#sectionLocation h2{
+    font-size: 1.5rem;
+}
+
+#sectionLocation h4{
+    font-size: 1.2rem;
+}
+
+
+/* -------------- Section Menu -------------- */
+
+#section-pizza, #section-sides, #section-desserts, #section-beverages {
+    /* border: 2px solid #B43F3F; */
+    border-radius: 8px;
+    text-align: -webkit-center;
+}
+
+.meal {
+    background-color: #F8EDED;
+    font-size: 1.1rem;
+    border-bottom: 1px solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: clamp(20rem, 40vw, 50vw);
+}
+
+#section-pizza .meal:last-child {
+    border-bottom: 0px;
+}
+
+#section-sides .meal:last-child {
+    border-bottom: 0px;
+}
+
+#section-desserts .meal:last-child {
+    border-bottom: 0px;
+}
+
+#section-beverages .meal:last-child {
+    border-bottom: 0px;
+}
+
+
+
+
+/* -------------- Section About Us -------------- */
+
 h2 {
     margin-bottom: 0px;
 }
