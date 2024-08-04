@@ -5,12 +5,6 @@ B43F3F dark red
 173B45 dark blue
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Oswald:wght@200..700&display=swap');
-
-@font-face {
-    font-family: cafeFrancoise;
-    src: url(fonts/Cafe\ Francoise_D.otf);
-}
 
 @font-face {
     font-family: Semplicita;
@@ -40,10 +34,12 @@ body {
     border: 0px;
     border-radius: 4px;
     margin: 0.5rem;
+    transition: background-color 0.5s;
 }
 
 #navButtons button:hover {
     cursor: pointer;
+    background-color: #3FB4B4;
 }
 
 #homeButton {
@@ -83,7 +79,7 @@ body {
 section {
     margin-bottom: 2.3rem;
     /* border: 1px solid #B43F3F; */
-    border-radius: 4px;
+    /* border-radius: 4px; */
     /* color: #F8EDED; */
 }
 
@@ -91,6 +87,11 @@ section {
 
 #sectionInfo {
     font-size: 1.2rem;
+    border-bottom: 1px solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: clamp(20rem, 40vw, 50vw);
+    margin: auto;
 }
 
 #sectionSchedule {
@@ -103,6 +104,11 @@ section {
 
 #sectionLocation {
     font-size: 1.2rem;
+    border-top: 1px solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: clamp(20rem, 40vw, 50vw);
+    margin: auto;
 }
 
 #sectionLocation h2{
@@ -151,6 +157,28 @@ section {
 
 
 /* -------------- Section About Us -------------- */
+
+
+#sectionAbout {
+    border-bottom: 1px solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: clamp(20rem, 40vw, 50vw);
+    margin: auto;
+}
+
+#about-us {
+    font-size: 3rem;
+}
+
+#sectionContact {
+    width: clamp(20rem, 40vw, 50vw);
+    margin: auto;
+}
+
+#contact-us {
+    font-size: 3rem;
+}
 
 h2 {
     margin-bottom: 0px;
