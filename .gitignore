@@ -1,3 +1,2 @@
 # ignore ALL files in this directories
 node_modules/
-dist/

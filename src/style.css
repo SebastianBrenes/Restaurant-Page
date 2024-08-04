@@ -160,6 +160,7 @@ section {
 
 
 #sectionAbout {
+    font-size: 1.2rem;
     border-bottom: 1px solid black;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -172,6 +173,7 @@ section {
 }
 
 #sectionContact {
+    font-size: 1.2rem;
     width: clamp(20rem, 40vw, 50vw);
     margin: auto;
 }
